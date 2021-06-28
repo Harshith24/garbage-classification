@@ -1,6 +1,4 @@
-# cv_yolo_scaffold
-A scaffold for deploying dockerized flask applications showcasing student computer vision projects using yolo.
-
+# Garbage Classification
 ### File Structure
 The files/directories which you will need to edit are **bolded**, and the files you may need to edit are *italicized*.
 DO NOT TOUCH OTHER FILES.
