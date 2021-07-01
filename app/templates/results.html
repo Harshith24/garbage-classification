@@ -117,6 +117,28 @@
           <a href="https://www.ai-camp.org" class="u-btn u-button-style u-none u-text-palette-4-light-1 u-btn-1" target="_blank">AI Camp - everyone can learn AI</a>
         </p>
       </div></footer>
+     <script>
+        // added to get upload with a button working
+        document.getElementById('input_button').addEventListener('click', openDialog);
 
+        function openDialog() {
+            document.getElementById('image_input_button').click();
+        }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#spinner").bind("ajaxSend", function() {
+                $(this).show();
+            }).bind("ajaxStop", function() {
+                $(this).hide();
+            }).bind("ajaxError", function() {
+                $(this).hide();
+            });
+            $('#input_button').click(function() {
+                $('#image_input_button').click();
+            });
+
+        });
+    </script>
   </body>
 </html>

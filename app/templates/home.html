@@ -75,11 +75,12 @@
         <!--     button added for uploading a photo    -->
         <div class="mbr-buttons--left">
             <div class="mbr-section-btn">
-                <a class="u-btn u-button-style u-palette-4-dark-2 u-text-white u-btn-1" href='#' id='seefood_button'>
-                    <form id='seefood_form' method=post enctype=multipart/form-data>
-                        <input id="seefood_input_field" name="file" type="file" onchange="this.form.submit();" hidden/>
+                <a class="u-btn u-button-style u-palette-4-dark-2 u-text-white u-btn-1" href='#' id='seefoodbutton'>
+                    <form id='seefoodform' method='post' enctype='multipart/form-data'>
+                          <input id="image_input_button" name="file" accept="image/png, image/jpeg" type="file" onchange="this.form.submit();" hidden>
+                      Try it now!
                     </form>
-                    Try it now!
+                    
                 </a>
 
             </div>
@@ -220,10 +221,10 @@
     <!--     javascript added for uploading a photo    -->
     <script>
         // added to get upload with a button working
-        document.getElementById('seefood_button').addEventListener('click', openDialog);
+        document.getElementById('seefoodbutton').addEventListener('click', openDialog);
 
         function openDialog() {
-            document.getElementById('seefood_input_field').click();
+            document.getElementById('image_input_button').click();
         }
     </script>
     <script type="text/javascript">
@@ -237,7 +238,7 @@
             });
             // seefood_input_field
             $('#seefood_button').click(function() {
-
+                $('#image_input_button').click();
             });
 
         });
