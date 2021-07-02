@@ -8928,10 +8928,6 @@ section.u-image,
 .u-layout-col > .u-size-30 {
   flex: 30 0 50%;
 }
-.u-size-centered {
-  justify-content: center;
-}
-
 .u-layout-row > .u-size-29 {
   flex: 0 0 48.33333333%;
   max-width: 48.33333333%;
@@ -16845,9 +16841,6 @@ p {
 }
 .u-font-lato.u-custom-font {
   font-family: Lato, sans-serif !important;
-}
-.custom-font {
-    font-family: Lato, sans-serif !important;
 }
 .u-font-montserrat.u-custom-font {
   font-family: Montserrat, sans-serif !important;
@@ -34548,7 +34541,7 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
 .u-header {
   background-image: none;
-  min-height: 95px;
+  min-height: 97px;
 }
 
 .u-header .u-image-1 {
@@ -34629,18 +34622,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-footer .u-text-2 {
-    width: 417px;
     margin-left: 0;
     margin-right: 0;
   }
 }
 
 
-@media (max-width: 575px) {
-  .u-footer .u-text-2 {
-    width: 340px;
-  }
-}
+
 
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }

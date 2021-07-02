@@ -14,12 +14,12 @@
 }
 
 .u-section-1 .u-container-layout-1 {
-  padding: 30px 23px 24px;
+  padding: 24px 23px;
 }
 
 .u-section-1 .u-text-1 {
   font-size: 3.75rem;
-  margin: 0 76px;
+  margin: 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -49,6 +49,8 @@
 
   .u-section-1 .u-text-1 {
     font-size: 1rem;
+    margin-left: 76px;
+    margin-right: 76px;
   }
 
   .u-section-1 .u-text-2 {
